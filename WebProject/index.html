@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Mykyta Rashkovskyi">
+    <meta name="description" content="Project Euler website with JS solutions.">
+    <link href="resources/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        
+            <link rel="stylesheet" href="resources/css/styles.css">
+
+
+    <title>Project Euler</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
+        <div class="container">
+        <a class="navbar-brand" href="#"><i class="fas fa-brain fa-2x"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="problems1.html">Problems</a>
+                <a class="nav-item nav-link" href="news.html">News</a>
+            </div>
+            <div class="navbar-nav">
+                <a href="#" class="btn btn-success nav-item nav-link disabled mr-3" role="button" aria-pressed="true">Sign in <i class="fas fa-user"></i></a>
+                <a href="#" class="btn btn-info nav-item nav-link disabled" role="button" aria-pressed="true">Register <i class="fas fa-user-plus"></i></a> 
+            </div>
+        </div>
+        </div>
+    </nav>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-2">Project Euler</h1>
+        <p class="h2">This site provides solution to Euler's problems using modern JavaScript.</p>
+        <hr class="my-4">
+        <p class="font-italic h3">"Project Euler exists to encourage, challenge, and develop the skills and enjoyment of anyone with an interest in the
+        fascinating world of mathematics."</p>
+        <a class="btn btn-primary btn-lg mt-5" href="problems1.html" role="button">Learn more</a>
+    </div>
+    <div class="accordion" id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <h4>What is Project Euler?</h4>
+                    </button>
+                </h2>
+            </div>
+    
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Project Euler is a series of challenging mathematical/computer programming problems that will require more than just
+                    mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a
+                    computer and programming skills will be required to solve most problems.
+
+                    The motivation for starting Project Euler, and its continuation, is to provide a platform for the inquiring mind to
+                    delve into unfamiliar areas and learn new concepts in a fun and recreational context.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                    <h4> Who are the problems aimed at?</h4>
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    The intended audience include students for whom the basic curriculum is not feeding their hunger to learn, adults whose
+                    background was not primarily mathematics but had an interest in things mathematical, and professionals who want to keep
+                    their problem solving and mathematics on the cutting edge.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                    <h4> Can anyone solve the problems?</h4>
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    The problems range in difficulty and for many the experience is inductive chain learning. That is, by solving one
+                    problem it will expose you to a new concept that allows you to undertake a previously inaccessible problem. So the
+                    determined participant will slowly but surely work his/her way through every problem.
+                </div>
+            </div>
+        </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                <h4>What next?</h4>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            In order to track your progress it is necessary to setup an account and have Cookies enabled. If you already have an
+                            account then Login, otherwise please Register – it's completely free!
+                            
+                            However, as the problems are challenging then you may wish to view the Problems before registering.
+                        </div>
+                    </div>
+                </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
